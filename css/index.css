@@ -1,0 +1,39 @@
+body {
+  background-color: lightblue;
+  color: darkgreen;
+  font-family: cursive;
+}
+section {
+  margin: 20px 0;
+  padding: 10px;
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  font-size: 2em;
+  font-weight: bold;
+  color: blueviolet;
+}
+h1#name {
+  font-size: 3em;
+  color: blue;
+  text-align: center;
+}
+
+#Experience li {
+  background-color: chocolate;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+#Connect li a:hover {
+  color: aquamarine;
+  text-decoration: underline;
+  font-weight: bold;
+}
+#Connect li a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+  font-weight: bold;
+}
