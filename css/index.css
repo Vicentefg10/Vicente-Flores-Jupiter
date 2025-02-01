@@ -95,3 +95,59 @@ h1#name {
   text-decoration: underline;
   font-weight: bold;
 }
+
+/*Mobile - first*/
+
+body {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+section {
+  padding: 10px;
+}
+
+/*Tablet View*/
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  nav ul {
+    gap: 30px;
+  }
+
+  #Experience ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop View*/
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3.5em;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  nav ul {
+    gap: 40px;
+  }
+
+  #Experience ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  #Connect ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
