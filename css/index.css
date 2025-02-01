@@ -56,7 +56,7 @@ h1#name {
 }
 
 #Experience li {
-  background-color: chocolate;
+  background-color: rgb(82, 147, 165);
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -71,7 +71,7 @@ h1#name {
 }
 
 #Experience li .job-dates {
-  color: gray;
+  color: rgb(23, 17, 197);
   margin-bottom: 10px;
 }
 #Connect ul {
